@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 30px;
+  color: #333;
+}
+
+h2, h3 {
+  color: #d40000;
+  margin-top: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+h4 {
+  color: red;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px 40px;
+  border: 1px solid #ccc;
+  width: 600px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+  font-weight: normal;
+  margin-bottom: 8px;
+  vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 60%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+  padding: 6px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #d5d5d5;
+}
+
+form p strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 10px;
+}
+
